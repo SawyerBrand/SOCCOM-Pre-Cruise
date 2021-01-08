@@ -1,28 +1,7 @@
 # SOCCOM-Pre-Cruise
 
-import numpy as np
-import pandas as pd
 
-from scipy.io import loadmat
-import matplotlib.pyplot as plt
-from matplotlib import cm
-import cmocean
-
-import xarray as xr
-
-from nbformat import read
-
-from PIL import Image
-import matplotlib.pyplot as plt
-import cartopy.crs as ccrs
-import cartopy.feature as cfeature
-from matplotlib.offsetbox import AnchoredText
-
-from cartopy.mpl.gridliner import LONGITUDE_FORMATTER, LATITUDE_FORMATTER
-
-import os
-
-download:
+use the following in your computers terminal for downloadind the necessary python packages:
 * pip install numpy
 * pip install pandas
 * pip install scipy
